@@ -1,0 +1,55 @@
+body {
+  background-color: #FAFAFA;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+#card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+#about_us {
+  background-color: #6EC1E4;
+}
+
+.extra-padding-top {
+  padding-top: 6rem;
+}
+
+#mission_gray {
+  background-color: #ececec;
+}
+
+#services {
+  background-color: #61CE70;
+}
+
+#services_detail {
+  background-color: #6EC1E4;
+}
+
+#footer_dark {
+  background-color: #3E424B;
+  color: #FAFAFA;
+  padding-left: 10%;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
